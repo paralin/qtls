@@ -6,7 +6,7 @@ package qtls
 
 import (
 	"crypto"
-	"crypto/ed25519"
+	"golang.org/x/crypto/ed25519"
 	"testing"
 )
 

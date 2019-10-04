@@ -6,12 +6,12 @@ package qtls
 
 import (
 	"bufio"
-	"crypto/ed25519"
 	"crypto/x509"
 	"encoding/hex"
 	"errors"
 	"flag"
 	"fmt"
+	"golang.org/x/crypto/ed25519"
 	"io"
 	"io/ioutil"
 	"net"

@@ -8,12 +8,12 @@ import (
 	"bytes"
 	"crypto"
 	"crypto/ecdsa"
-	"crypto/ed25519"
 	"crypto/elliptic"
 	"crypto/rsa"
 	"encoding/asn1"
 	"errors"
 	"fmt"
+	"golang.org/x/crypto/ed25519"
 	"hash"
 	"io"
 )

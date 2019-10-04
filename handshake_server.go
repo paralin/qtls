@@ -7,12 +7,12 @@ package qtls
 import (
 	"crypto"
 	"crypto/ecdsa"
-	"crypto/ed25519"
 	"crypto/rsa"
 	"crypto/subtle"
 	"crypto/x509"
 	"errors"
 	"fmt"
+	"golang.org/x/crypto/ed25519"
 	"io"
 	"sync/atomic"
 )
